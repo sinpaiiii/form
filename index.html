@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body onload="passw()">
+    <div id="bo" class="bo">
+      <h1>Registration Form</h1>
+
+      <p>Name:</p>
+      <input type="text" name="" id="name" />
+      <p>College:</p>
+      <input type="text" name="" id="coll" />
+      <p>Year and Branch:</p>
+      <input type="text" name="" id="yb" />
+      <p>USN NO:</p>
+      <input type="text" name="" id="usn" />
+      <p>Choose event(You can opt for multiple events)</p>
+      <div>
+        <button onclick="cal(1)" class="boff" id="bt1">Hack-a-thon</button>
+        <button onclick="cal(2)" class="boff" id="bt2">Web-a-thon</button>
+        <button onclick="cal(3)" class="boff" id="bt3">Code Masters</button>
+        <button onclick="cal(4)" class="boff" id="bt4">IPL Auctions</button>
+      </div>
+      <p>Amount to be paid = <span id="amo">0</span></p>
+      <button id="verDet">Verify Details</button>
+    </div>
+    <div id="wrong" class="wrong">
+      <h2>Invalid password</h2>
+      <button onclick="passw()">Try again</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

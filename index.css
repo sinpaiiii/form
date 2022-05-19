@@ -1,0 +1,16 @@
+.bo {
+  border: 2px solid black;
+  width: 30vw;
+  margin-left: 35vw;
+  padding: 5px;
+  display: none;
+}
+.boff {
+  background-color: white;
+}
+.bon {
+  background-color: blueviolet;
+}
+.wrong {
+  display: none;
+}
